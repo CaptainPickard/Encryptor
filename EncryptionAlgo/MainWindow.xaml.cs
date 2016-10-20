@@ -223,6 +223,106 @@ namespace EncryptionAlgo
             {
                 letter = 'C';
             }
+            if (letter == '~')
+            {
+                letter = '@';
+                return letter;
+            }
+            if (letter == '`')
+            {
+                letter = '#';
+                return letter;
+            }
+            if (letter == '!')
+            {
+                letter = '$';
+                return letter;
+            }
+            if (letter == '@')
+            {
+                letter = '%';
+                return letter;
+            }
+            if (letter == '#')
+            {
+                letter = '^';
+                return letter;
+            }
+            if (letter == '$')
+            {
+                letter = '&';
+                return letter;
+            }
+            if (letter == '%')
+            {
+                letter = '*';
+                return letter;
+            }
+            if (letter == '^')
+            {
+                letter = '(';
+                return letter;
+            }
+            if (letter == '&')
+            {
+                letter = ')';
+                return letter;
+            }
+            if (letter == '*')
+            {
+                letter = '?';
+                return letter;
+            }
+            if (letter == '(')
+            {
+                letter = '"';
+                return letter;
+            }
+            if (letter == ')')
+            {
+                letter = '<';
+                return letter;
+            }
+            if (letter == '?')
+            {
+                letter = '>';
+                return letter;
+            }
+            if (letter == '"')
+            {
+                letter = '.';
+                return letter;
+            }
+            if (letter == '<')
+            {
+                letter = ',';
+                return letter;
+            }
+            if (letter == '>')
+            {
+                letter = ';';
+                return letter;
+            }
+            if (letter == '.')
+            {
+                letter = ':';
+                return letter;
+            }
+            if (letter == ',')
+            {
+                letter = '~';
+                return letter;
+            }
+            if (letter == ';')
+            {
+                letter = '`';
+                return letter;
+            }
+            if (letter == ':')
+            {
+                letter = '!';
+                return letter;
+            }
             return letter;
         }
         public static char Decryptionconditions(char letter)
